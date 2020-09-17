@@ -15,6 +15,7 @@ function Square(props) {
       }
     >
       {props.value}
+      {props.name}
     </button>
   );
 }
